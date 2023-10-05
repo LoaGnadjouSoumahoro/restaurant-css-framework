@@ -1,9 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Libre+Baskerville&family=Montserrat&family=Oswald&family=Shrikhand&display=swap');
 
 
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=DM+Serif+Text&family=Inter:wght@200;300;400;500;600;700&family=Josefin+Sans&family=Lumanosimo&family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=DM+Serif+Text&family=Inter:wght@200;300;400;500;600;700&family=Josefin+Sans&family=Lumanosimo&family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=DM+Serif+Text&family=Inter:wght@200;300;400;500;600;700&family=Josefin+Sans:ital,wght@1,700&family=Lumanosimo&family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+body{
+height: 5000px;
+overflow-x: hidden;
+min-height: 60vh;
+}
+
+.masthead{
+background-size: cover;
+min-height: 100vh;
+position: relative;
+text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.name-logo{
+    font-family: 'Akaya Kanadaka', cursive;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    font-size: 2rem;
+}
+
+.container-main{
+
+background-color: rgba(248, 247, 177, 0.432);
+}
+
+.card-title{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.text-title-card-menu{
+    font-family: 'Indie Flower', cursive;
+}
+.card-img-menu{
+width: 100px;
+height: 100px;
+}
+
+.title-contact,
+.title-restaurants
+.card-title{
+color: white ;
+font-size: 2rem;
+}
+.nav-link,
+.card-text
+{
+color: white;
+font-size: 1.5rem;
+}
+.nav-brand{
+    color: white;
+    font-size: 1.5rem;
+
+}
+.name-label{
+    color: white;
+    font-size: 1.5rem;
+}
+.bg-card{
+background-color: rgba(248, 247, 177, 0.432);
+}
+.text-annonce{
+color:black;
+}
+
 .img-logo{
 
 width: 10%;
+transform: translateY(-2px)
 
 }
 
@@ -22,10 +96,8 @@ height: 100px;
 
     font-family: 'Shrikhand', cursive;
 }
-.big-banner{
-background-image: url(./images/entré_restaurant.jpg);
+/* .big-banner{
+
 background-size: 100%;
 background-repeat: no-repeat;
-
-
-}
+} */
