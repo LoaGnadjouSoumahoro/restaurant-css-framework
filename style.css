@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Libre+Baskerville&family=Montserrat&family=Oswald&family=Shrikhand&display=swap');
+
+
+.img-logo{
+
+width: 10%;
+
+}
+
+.img-background-home{
+
+width: 100% ;
+height: auto;
+
+}
+
+img-menu{
+width: 100px;
+height: 100px;
+}
+.nam-resto{
+
+    font-family: 'Shrikhand', cursive;
+}
+.big-banner{
+background-image: url(./images/entré_restaurant.jpg);
+background-size: 100%;
+background-repeat: no-repeat;
+
+
+}
