@@ -1,20 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Libre+Baskerville&family=Montserrat&family=Oswald&family=Shrikhand&display=swap');
+#cb-cookie-banner { position: fixed; bottom: 0; left: 0; width: 100%; z-index: 999; border-radius: 0; display: none; } 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=DM+Serif+Text&family=Inter:wght@200;300;400;500;600;700&family=Josefin+Sans&family=Lumanosimo&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,700;1,800&family=Redressed&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=DM+Serif+Text&family=Inter:wght@200;300;400;500;600;700&family=Josefin+Sans&family=Lumanosimo&family=Roboto&display=swap');
+
+/* 
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Redressed', cursive;
+*/
+
 
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=DM+Serif+Text&family=Inter:wght@200;300;400;500;600;700&family=Josefin+Sans:ital,wght@1,700&family=Lumanosimo&family=Roboto&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
 
-body{
+/* body{
 height: 5000px;
 overflow-x: hidden;
 min-height: 60vh;
-}
+overflow: hidden;
+} */
+
 
 .masthead{
 background-size: cover;
@@ -23,7 +30,9 @@ position: relative;
 text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
-.name-logo{
+.name-logo
+{
+    color: var(--bs-teal);
     font-family: 'Akaya Kanadaka', cursive;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
     font-size: 2rem;
@@ -33,6 +42,7 @@ text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 
 background-color: rgba(248, 247, 177, 0.432);
 }
+
 
 .card-title{
     font-family: 'Josefin Sans', sans-serif;
@@ -52,12 +62,23 @@ height: 100px;
 color: white ;
 font-size: 2rem;
 }
-.nav-link,
-.card-text
-{
+nav-item .nav-link{
+    
+    
+    font-weight: 550;
+    transition: 0.5s;
+}
+.nav-link {
 color: white;
 font-size: 1.5rem;
 }
+.card-text {
+color: white;
+font-size: 1.2rem;
+}
+.nav-item .nav-link:hover{
+    color: var(--bs-teal);
+    }
 .nav-brand{
     color: white;
     font-size: 1.5rem;
@@ -67,9 +88,13 @@ font-size: 1.5rem;
     color: white;
     font-size: 1.5rem;
 }
+
 .bg-card{
 background-color: rgba(248, 247, 177, 0.432);
+ 
+
 }
+
 .text-annonce{
 color:black;
 }
@@ -101,3 +126,146 @@ height: 100px;
 background-size: 100%;
 background-repeat: no-repeat;
 } */
+
+
+/* 
+ajout du style
+
+*/
+.redressed{
+font-family: 'Redressed', cursive;
+}
+
+.merriweater{
+font-family: 'Merrriweater', serif;
+}
+
+.cc-navbar{
+
+background-color: rgba(0, 0, 0, 0.55);
+font-family: 'Merriweather', serif;
+box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
+}
+
+/* pour cibler les naves bar des nav-link */
+.cc-navbar .nav-link{
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
+
+}
+
+.cc-navbar .nav-link:hover{
+padding-bottom: 20px;
+border-bottom: var(--bs-teal);
+}
+.banner .banner-desc{
+font-size: 48px;
+font-weight: 400;
+color: white;
+}
+/* height: 1200px;: la haut de notre background */
+
+
+/*color: var(--bs-teal);: utilisation d'une couleur native de Bootstrap */
+/* transition: 0.5s; temps de transition */
+.btn-order{
+color: var(--bs-teal);
+border-color: var(--bs-teal);
+transition: 0.5s;
+}
+.btn-order:hover,
+.btn-order:active{
+color: #fff;
+background-color:  var(--bs-teal); ;
+}
+
+#cb-cookie-banner { position: fixed; bottom: 0; left: 0; width: 100%; z-index: 999; border-radius: 0; display: none; 
+
+}
+
+/* location start */
+/* .location{
+background: #fff;
+border-radius: 30px;
+box-shadow: 12px 12px 22px;
+
+}
+
+.map-responsive{
+padding-bottom: 5%;
+
+position:relative;
+height: 0;
+}
+
+.map-responsive iframe{
+left: 0;
+top: 0;
+height: 70%;
+width: 90%;
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center; */
+/* } */
+/* location End */
+
+/* location start 2 */
+
+
+
+
+.contact-in {
+width:100%;
+height: auto;
+display: flex;
+flex-wrap: wrap;
+padding: 10px;
+border-radius: 10px;
+background: #fff;
+box-shadow: 0px 0px 10px 0px #666;
+}
+
+.contact-map{
+width: 100%;
+height: auto;
+flex: 50%;
+}
+.contact-map iframe{
+width: 100%;
+height: 100%;
+
+}
+.contact-form{
+width: 100%;
+height: auto;
+padding: 30px;
+flex: 50%;
+}
+
+.contact-form h1{
+margin-bottom: 10px;
+}
+.text-restaurant{
+width: 100%;
+height: auto;
+color: #000;
+/* padding: 15px; */
+}
+
+@media  onely screen and(min-width: 47(px) {
+    .contact-in {
+        width:100%;
+        height: 100px;
+}
+}
+
+
+/* location End 2 */
+
+/* contact Start */
+
+.label-form{
+font-size: 30px;
+}
+/* contact End */
